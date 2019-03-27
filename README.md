@@ -22,3 +22,5 @@ BASIC COMMANDS:
 *  git config -- global user.email "email" Para configurar email del usuario
 *  git config -- global user.name "nombre" Para configurar nombre del usuario
 
+.gitignore Es un archivo reservado de git que tenemos que crear si queremos decirle a git los archivos que no vamos a utilizar y así decida ignorarlos.
+Escribe dentro de el archivo .gitignore los nombres de los archivos que desees ignorar.
