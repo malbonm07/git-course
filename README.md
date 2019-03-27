@@ -2,7 +2,7 @@
 Refreshing Git!
 This is a test project. I'm refreshing Git and Github :)
 
-BASIC COMMANDS:
+GIT BASIC COMMANDS / COMANDOS BASICOS GIT
 
 * git init Oye Git, voy a usar estos documentos contigo ¿vale?
 * git add <file> Pasa los docs a staging area 
