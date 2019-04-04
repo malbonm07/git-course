@@ -24,3 +24,25 @@ GIT BASIC COMMANDS / COMANDOS BASICOS GIT
 
 .gitignore Es un archivo reservado de git que tenemos que crear si queremos decirle a git los archivos que no vamos a utilizar y así decida ignorarlos.
 Escribe dentro de el archivo .gitignore los nombres de los archivos que desees ignorar.
+
+
+########## Deploy mediante NPM ###########
+
+Instalar la dependencia:
+
+npm i gh-pages
+
+add the homepage in package.json
+
+"homepage": "https://malbonm07.github.io/landing-page",
+
+En scripts (package.json) agregar para ser capaces de hacer el deploy desde npm
+
+"deploy": "gh-pages -d dist"
+
+crear repositorio, agregar la lista de archivos al staging area, commit y luego push al master y luego iniciar:
+
+npm run deploy
+
+Una vez que el terminal nos de "published" finalizamos.
+
